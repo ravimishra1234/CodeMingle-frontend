@@ -77,6 +77,14 @@ const NavBar = () => {
                   </Link>
                 </li>
                 <li>
+                  <Link
+                    to="/premium"
+                    className="justify-between hover:bg-gray-800 rounded-md p-2"
+                  >
+                    Premium <span className="badge badge-primary">👑</span>
+                  </Link>
+                </li>
+                <li>
                   <button
                     onClick={handleLogout}
                     className="text-red-400 hover:text-red-300 hover:bg-gray-800 w-full p-2 rounded-md"
